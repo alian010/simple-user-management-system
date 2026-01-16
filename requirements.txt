@@ -1,0 +1,17 @@
+# Core
+Django>=4.2,<5.0
+
+# Django REST Framework
+djangorestframework>=3.14.0
+
+# JWT Authentication
+djangorestframework-simplejwt>=5.3.1
+
+# Environment Variables
+python-dotenv>=1.0.1
+
+# Security (optional but good practice)
+django-cors-headers>=4.3.1
+
+# Production Server (optional for deployment)
+gunicorn>=21.2.0
