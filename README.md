@@ -329,18 +329,8 @@ POST /users/logout/
 ## 🧪 Testing Tools
 
 * Postman ✅ (Recommended)
-* curl
-* Swagger (Optional)
 
 ---
-
-## 📝 Notes for Reviewers / Team Lead
-
-* Secure JWT-based authentication
-* Password validation enforced
-* Clean, consistent API responses
-* DRF best practices followed
-* Ready for production & scaling
 
 ---
 ```
