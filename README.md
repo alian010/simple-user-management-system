@@ -1,5 +1,3 @@
-Here is a **clean, professional `README.md`** you can directly copy–paste into your GitHub repository.
-It’s written in **team-lead / reviewer-friendly** style and matches your API Test Documentation exactly.
 
 ````md
 # User Management System API  
