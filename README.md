@@ -35,8 +35,8 @@ The API provides secure user authentication and profile management following **b
 
 - **Backend:** Django, Django REST Framework  
 - **Authentication:** JWT (SimpleJWT)  
-- **Database:** SQLite / PostgreSQL (configurable)  
-- **Testing:** Postman / curl  
+- **Database:** SQLite  (configurable)  
+- **Testing:** Postman 
 
 ---
 
@@ -237,7 +237,7 @@ POST /users/profile/change-password/
 
 ```json
 {
-  "old_password": "OldPassword123",
+  "old_password": "StrongPass123",
   "new_password": "NewStrongPass456",
   "new_password2": "NewStrongPass456"
 }
@@ -343,20 +343,4 @@ POST /users/logout/
 * Ready for production & scaling
 
 ---
-
-### 👨‍💻 Author
-
-**Backend Development Team**
-
-**Status:** ✅ Ready for QA & Review
-
-```
-
-If you want, next I can:
-- ✔️ Add **setup instructions** (virtualenv, migrations, runserver)
-- ✔️ Create **Postman collection JSON**
-- ✔️ Align README with **GitHub best practices**
-- ✔️ Make this **company-grade documentation** for your team lead
-
-Just tell me 👍
 ```
